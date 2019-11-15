@@ -1,0 +1,385 @@
+*{
+      list-style: none;
+}
+
+
+body{
+      /*background: #e6f8f9;*/
+      background: #ececeb;
+
+      width: 1300px;
+      margin: 0;
+      padding: 0;
+      display: block;
+}
+
+.home-section{
+      width: 100%;
+}
+img{
+      
+      /*height: 660px;*/
+      filter: brightness(20%);
+      position: absolute;
+}
+
+     
+nav{
+      
+      padding: 20px 30px 0 20px !important;
+}
+
+.nav-link{
+      text-transform: uppercase;
+      color: white !important;
+      font-weight: bold;
+}
+
+.top-container{
+      
+      height: 200px;
+      position: absolute;
+      color: white;
+      margin: 140px 0 30px 50px;
+}
+
+.form-wrapper{
+      max-width: 400px !important;
+      padding: 20px 100px;
+      margin: 70px 0 0 100px;
+      background: black;
+      opacity: 0.8;
+      color: white;
+      border-radius: 6.125%;
+      
+}
+
+form{
+      
+      margin: 0 auto;
+}
+.big-heading{
+      font-size: 2.7rem !important;
+      color: white;  
+      padding-bottom: 20px;
+}
+
+.form-title{
+      text-align: center;
+      font-size: 2.4rem !important;
+      color: white;  
+      margin-top: 20px;
+      padding-bottom: 20px;
+}
+
+.form-input{
+      width: 250px;
+      margin: 10px 15px;
+      
+}
+
+.btn-send{
+      background: whitesmoke !important;
+      margin-left: 65px;
+      border-radius: 12.5px;
+      padding: 5px 20px;
+}
+
+
+.about-section{
+      height: 500px;
+      margin-top: 50px;
+      padding: 0px 60px;
+}
+
+.about-heading{
+      padding-bottom:50px;
+}
+
+
+
+.about-section-row{
+      margin: 30px auto;
+      padding: 50px !important;
+      
+      width: 400px;
+      height: 350px;
+}
+
+.btn{
+      margin-top: 40px !important;
+}
+
+.skills li {
+      margin: 20px 0;
+}
+
+.bar{
+      background: #353b48;
+      display: block;
+      height: 5px;
+      border: 1px solid rgba(0, 0, 0, 3);
+      border-radius: 3px;
+      overflow: hidden;
+      box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span{
+      height:2px;
+      float: left;
+      background: #3fc5f0;
+}
+
+.html{
+      width: 90%;
+      animation: html 2s;
+}
+
+.css{
+      width: 85%;
+      animation: css 2s;
+}
+
+.jquery{
+      width:75%;
+      animation: jquery 2s;
+}
+
+.javascript{
+      width: 60%;
+      animation: javascript 2s;
+}
+
+.python{
+      width: 50%;
+      animation: python 2s;
+}
+
+@keyframes html{
+      0%{
+            width: 0%;
+      }
+      100%{
+            width: 95%;
+      }
+}
+
+@keyframes css{
+      0%{
+            width: 0%;
+      }
+      100%{
+            width: 85%;
+      }
+}
+
+@keyframes jquery{
+      0%{
+            width: 0%;
+      }
+      100%{
+            width: 75%;
+      }
+}
+
+@keyframes javascript{
+      0%{
+            width: 0%;
+      }
+      100%{
+            width: 60%;
+      }
+}
+
+@keyframes python{
+      0%{
+            width: 0%;
+      }
+      100%{
+            width: 50%;
+      }
+}
+
+.services-section{
+      width: 1349px;
+      padding: 20px 60px;
+      background: #ececeb;
+}
+
+.services-heading{
+     text-align: center;
+     
+     /*padding: 60px auto !important;*/
+}
+
+hr{
+      
+      width: 40px;
+      border: 3px solid #3fc5f0 !important;
+      
+}
+.big-row{
+      margin-top: 60px !important;
+}
+.dev-row{
+      background: #f8f8f8;
+      margin: 10px;
+      padding: 5px;
+      border-radius: 12.5px;
+      box-shadow: 0 0 10px #2187e7b3;
+      
+}
+
+.dev-field{
+      margin:10px 0 0 80px;
+      font-size: 14px;
+}
+.fas{ 
+      margin: 12.5% 20px;
+      float: left;
+      color: #3fc5f0 !important;
+}
+
+.pricing-section{
+      
+      text-align: center;
+      height:500px;
+      margin: 0px 30px;
+      padding: 30px 0;
+}
+
+.pricing-heading{  
+      margin: 20px 0 0;
+      text-transform: uppercase;
+}
+
+
+.price{
+   padding: 15px;
+   width: 33%;
+   height: 400px;
+   margin: 60px;
+   font-weight: 1000;
+   /*filter: brightness(30%);*/
+   background-repeat: no-repeat;
+   
+}
+
+.first{
+      background-image:linear-gradient(rgba(0, 255, 0, 0.5), rgba(71, 207, 289, 0.664)), url(./Images/first-pricing-image.jpg);
+      
+}
+
+.second{
+      background-image:linear-gradient(rgba(0, 0, 0, 0.89), rgba(0, 0, 0, 0.5)), url(./Images/second-pricing-image.jpg);
+      color: white;
+      
+}
+
+.third{
+      background-image:linear-gradient(rgba(0, 102, 255, 0.89), rgba(0, 0, 255, 0.5)), url(./Images/third-pricing-image.jpg);
+}
+
+
+.card-heading{
+      margin: 10px 0 0;
+      font-size: 1.4rem;
+      text-align: left;
+}
+
+.feature{
+      margin: 10px 0 15px 5px;
+}
+
+.dark-font-symbol{
+      text-align: left;
+      margin: 5px 0 0;
+      color: black !important;
+}
+.white-font-symbol{
+      text-align: left;
+      margin: 5px 0 0;
+      color: white !important;
+}
+
+
+.team-section{
+      width: 1330px;
+      margin-top: 140px;
+      background: rgba(228, 250, 252, 0.281);
+}
+.team-heading{
+      
+      padding: 30px 30px 0; 
+      text-align: center;
+}
+
+
+.member-card{
+   width: 280px;
+   height: 350px;
+   margin: 40px 60px;
+   background: white !important;
+   position: relative;
+   box-shadow: 0 0 10px #2187e7b3;
+}
+
+.member-image{
+      width: 150px;
+      height: 150px;
+      
+      margin: 20px 0 0 60px;
+      border-radius: 50%;
+}
+
+.name{
+      color: darkcyan !important;
+      text-transform: uppercase;
+}
+.first-name{
+      position: absolute;
+      top: 180px;
+      left: 100px;
+}
+.second-name{
+      position: absolute;
+      top: 180px;
+      left: 90px;
+}
+.third-name{
+      position: absolute;
+      top: 180px;
+      left: 70px;
+}
+.profession{
+      font-style: bold;
+      text-transform: uppercase;
+      font-size: 14px;
+      position: absolute;
+}
+.first-profession{
+      top: 220px;
+      left: 115px;
+}
+.second-profession{
+      top: 220px;
+      left: 92px;
+}
+.third-profession{
+      
+      top: 220px;
+      left: 65px;
+}
+
+.role-desc{
+      font-size: 12px;
+      position: absolute;
+      top: 240px;
+      left: 30px;
+}
+
+.fonts-container{
+      position: absolute;
+      top:320px;
+      left: 100px;
+}
