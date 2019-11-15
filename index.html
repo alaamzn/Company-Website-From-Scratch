@@ -26,10 +26,10 @@
 </head>
 
 <body>
-      <div class="home-section">
-            <img src="./Images/low-angle-photo-of-four-high-rise-curtain-wall-buildings-830891.jpg"
+      <div class="home-section" id="home">
+            <img class="background-image" src="./Images/low-angle-photo-of-four-high-rise-curtain-wall-buildings-830891.jpg"
                   alt="background-image">
-            <nav class="nav-bar navbar navbar-expand-lg navbar-dark">
+            <nav class="nav-bar navbar navbar-expand-lg navbar-dark navbar-static">
                   <a class="navbar-brand" href="">CampanyName</a>
 
                   <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -41,19 +41,19 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                               <li class="nav-item">
-                                    <a class="nav-link" href="#about">Home</a>
+                                    <a class="nav-link" href="#home">Home</a>
                               </li>
                               <li class="nav-item">
                                     <a class="nav-link" href="#about">About</a>
                               </li>
                               <li class="nav-item">
-                                    <a class="nav-link" href="#skill">Services</a>
+                                    <a class="nav-link" href="#services">Services</a>
                               </li>
                               <li class="nav-item">
-                                    <a class="nav-link" href="#work">Pricing</a>
+                                    <a class="nav-link" href="#pricing">Pricing</a>
                               </li>
                               <li class="nav-item">
-                                    <a class="nav-link" href="#contact">Team</a>
+                                    <a class="nav-link" href="#team">Team</a>
                               </li>
                               <li class="nav-item">
                                     <a class="nav-link" href="#contact">Contact</a>
@@ -65,8 +65,8 @@
             <div class="row">
 
                   <div class="col-lg top-container">
-                        <h2 class="big-heading">The Future</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        <h2 class="big-heading" >The Future</h2>
+                        <p class="company-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                               labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                               laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                               voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
@@ -100,7 +100,7 @@
       </div>
 
 
-      <div class="about-section">
+      <div class="about-section" id="about">
             <div class="row">
                   <div class="col-lg about-section-row">
                         <h2 class="about-heading">About Us</h2>
@@ -133,7 +133,7 @@
                   </div>
             </div>
       </div>
-      <div class="services-section">
+      <div class="services-section" id="services">
             <h2 class="services-heading">Services</h2>
             <hr size="4px">
             <div class="row big-row">
@@ -190,7 +190,7 @@
       </div>
       
 
-      <div class="pricing-section">
+      <div class="pricing-section" id="pricing">
             <h2 class="pricing-heading">Price plans</h2>
             <hr size="4px">
             <div class="row pricing-container">
@@ -272,7 +272,7 @@
             
             </div>
       </div>
-      <div class="team-section">
+      <div class="team-section" id="team">
             <h2 class="team-heading">Meet the team</h2>
             <hr size="4">
             <div class="row">
@@ -318,6 +318,63 @@
       </div>
       </div>
       </div>
+      <div class="contact-section" id="contact">
+            
+                  <h2 class="contact-heading">Get in touch</h2>
+                  <hr>
+                  <div class="row contact-container">
+                        <div class="col">
+                              <label><i class="contact-font fas fa-user fa-1x"></i>
+                                    <input class="input-field" type="text" placeholder="Full name">
+                              </label>
+                              <label><i class="contact-font fas fa-envelope fa-1x"></i>
+                                    <input class="input-field" type="text" placeholder="Email Address">
+                              </label>
+                              <label>
+                                          <i class="contact-font fas fa-phone fa-1x"></i>
+                                    <input class="input-field" type="text" placeholder="Phone number">
+                              </label>
+                        </div>
+                        <div class="col">
+                        <textarea class="large-input-field" cols="30" rows="10" placeholder="Your Message"></textarea>
+                        <button type="button" class="large-button btn btn-primary btn-lg btn-block">Send Message</button>
+                  </div>                          
+                  
+            </div>
+      </div>
+      <div class="footer">
+            <div class="row">
+            <div class="col footer-section">
+                  <h4 class="footer-heading">Contact Us</h4>
+                  <i class="footer-font fas fa-home fa-1x"></i>
+                  <h6>KSITM, Katsina State</h6>
+                  <i class="footer-font fas fa-envelope fa-1x"></i>
+                  <h6>example123@gmail.com</h6>
+                  <i class="footer-font fas fa-phone fa-1x"></i>
+                  <h6>+1234(5555)678</h6>
+
+            </div>
+            <div class="col footer-section">
+                        <h4 class="footer-heading">About Us</h4>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                              labore et dolore magna aliqua. 
+            </div>
+            <div class="col footer-section">
+                        <h4 class="footer-heading">Stay in Touch</h4>
+                        <div class="footer-last-section-fonts">
+                        <i class="fab fa-facebook-square fa-1x"></i>
+                        <i class="fab fa-twitter fa-1x"></i>
+                        <i class="fab fa-instagram fa-1x"></i>
+                        <i class="fab fa-youtube fa-1x"></i>
+                        <i class="fab fa-linkedin fa-1x"></i>
+                        <i class="fab fa-github fa-1x"></i>
+                        </div> 
+                        <br>
+                        <input class="footer-input" type="text" placeholder="Subscribe">
+                        <button type="button" class="subscribe-button btn btn-primary">Subscribe</button>
+            </div>
+      </div>
+</div>
 </body>
 
 </html>
