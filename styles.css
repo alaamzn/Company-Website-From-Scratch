@@ -417,7 +417,7 @@ hr {
       top: 320px;
       left: 100px;
 }
-
+/**************************** Contact Section ********************/
 .contact-container {
       margin: 50px 100px 0 !important;
       padding: 50px;
@@ -498,8 +498,12 @@ hr {
 
 
 @media only screen and (max-width: 480px) {
-
+      body{
+            margin: 0;
+            padding: 0;
+      }
       .background-image {
+            
             height: 1800px;
       }
 
@@ -508,9 +512,9 @@ hr {
       }
 
       nav {
-            width: 100%;
+            width: 98%;
             font-size: 1.7rem;
-            margin: 0 0 20px;
+            margin: 0;
             padding: 0;
             text-align: center;
       }
@@ -593,18 +597,29 @@ hr {
       .big-row {
             width: 1200px;
             padding-left: 130px;
+            
       }
 
       .dev-row {
-            width: 280px;
-            height: 250px;
+            width: 300px;
+            height: 400px;
+            
+      }
+      .dev-field{
+            padding-bottom: 50px;
+            padding-left: 70px;
       }
 
-      .dev-field {
-            font-size: 1.2rem;
+      .dev-field h3{
+            font-size: 3rem;
       }
-      .fas {
-            margin: 70px 0 !important;
+
+      .dev-field p{
+            font-size: 1.8rem;
+      }
+      .dev-row .fas{
+            margin: 180px 0 0 50px!important;
+            font-size: 4rem !important;
       }
 
 
@@ -613,26 +628,215 @@ hr {
 
       .pricing-section {
             position: relative;
-            margin: 0 30px 1200px;
+            margin: 0 30px 1800px;
       }
+      .pricing-section {
+
+            
+            height: 700px;
+            
+      }
+
+      .pricing-container{
+            background: grey;
+            width: 1349px;
+            padding-bottom: 100px;
+      }
+      .card-heading{
+            margin-left: 400px;
+            font-size: 2.8rem;
+            padding-bottom: 40px;
+      }
+      .pricing-heading {
+            font-size: 4rem;
+      }
+      
+      .feature{
+            margin-left: 400px;
+      }
+
+      .feature p{
+            margin-right: 200px;
+      }
+      
+      .price{
+             font-size: 2.4rem; 
+             margin-bottom: 260px;    
+             
+      }
+
+      .price h4{
+            margin-left: 200px;
+            font-size: 3rem; 
+            
+      }
+      
+      
+      .dark-font-symbol{
+            margin-left: 300px;
+      }
+      .white-font-symbol{
+            color: black !important;
+      }
+      .first {
+            background-image: none;
+            text-align: center;
+      }
+      .second {
+            background-image: none;
+            text-emphasis: center;
+            color: black;
+      
+      }
+      
+      .third {
+            background-image: none;
+            text-align: center;
+      }
+
+
 
       /****************************** Team Section ****************************************/
 
 
       .team-section {
             position: relative;
-            margin: 200px 30px 400px;
+            margin: 200px 0 200px;
       }
 
       .team-heading {
             margin-top: 100px;
+            font-size: 4rem;
+      }
+      .member-card{
+            width: 600px;
+            height: 800px;
+            margin-left: 400px;
+      } 
+      .member-image {
+            width: 350px;
+            height: 350px;
+            margin-left: 150px;
+      }
+      
+      .first-name {    
+            top: 400px;
+            left: 250px;
+            font-size: 3rem;
+      }
+      
+      .second-name {
+            top: 400px;
+            left: 210px;
+            font-size: 3rem;
+      }
+      
+      .third-name {
+            top: 400px;
+            left: 190px;
+            font-size: 3rem;
       }
 
+      .profession {
+            
+            
+            font-size: 3rem;
+            
+      }
+      
+      .first-profession {
+            top: 470px;
+            left: 270px;
+      }
+      
+      .second-profession {
+            top: 470px;
+            left: 112px;
+      }
+      
+      .third-profession {
+            top: 470px;
+      }
+      
+      .role-desc {
+            font-size: 2.2rem;
+            
+            top: 530px;
+            left: 20px;
+            
+      }
+      
+      .fonts-container {
+            top: 740px;
+            left: 200px;
+            font-size: 40px;
+      }
+
+      /*******************************Contact Section **************************************/
       .contact-section {
             position: relative;
-            margin: 0 30px 200px;
+            margin: 0px 30px 100px;
       }
+      .contact-container {
+            margin: 0 170px  !important;
+            padding: 0;
+            height: 500px !important;
+            
+      }
+      .contact-heading {
+            text-align: center;
+            font-size: 4rem;
+      }
+      
+      .input-field {
+            
+            width: 800px;
+            height: 50px;
+            
+      }
+      
+      .large-input-field {
+            width: 850px;
+            height: 250px;
+            border: 1px solid grey;
+      }
+      .large-button {
+            width:820px;
+      }
+      
+      /***************************** Footer Section ***************************************/
+      .footer{
+            font-size: 2rem;
+            height:1100px;
 }
 
+.footer-heading {
+      font-size: 4rem;
+      padding-bottom: 40px;
+}
+.footer-section{
+      height: 300px;
+}
+
+.footer-font {
+      margin: 0 40px 0 0 !important;
+      font-size: 40px !important;
+}
+
+.footer-section h6{
+      font-size: 2.5rem;
+}
+
+.footer-input {
+      width: 800px !important;
+      height: 100px;
+      border-radius: 2px;
+}
+
+.subscribe-button {
+      margin: 0 0 5px 0 !important;
+}
+
+}
 
 
