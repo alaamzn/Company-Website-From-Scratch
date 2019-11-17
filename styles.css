@@ -32,8 +32,9 @@ body {
 
 
 nav {
-      padding: 20px 30px 0 20px !important;
-
+      padding: 20px 30px 20px 20px !important;
+      background: rgba(0, 0, 0, 0.5);
+      
 }
 
 .nav-link {
@@ -42,7 +43,7 @@ nav {
       font-weight: bold;
 }
 
-/* First Row Of The About Section*/
+
 .top-container {
 
       height: 200px;
@@ -57,13 +58,10 @@ nav {
       padding-bottom: 20px;
 }
 
-/**************************************** About Section Form *****************************************/
-
-
 .form-wrapper {
       max-width: 400px !important;
-      padding: 20px 100px;
-      margin: 70px 0 0 100px;
+      padding: 40px 100px;
+      margin: 130px 0 0 200px;
       background: black;
       opacity: 0.8;
       color: white;
@@ -102,8 +100,8 @@ form {
 
 .about-section {
       height: 500px;
-      margin-top: 50px;
-      padding: 0px 60px;
+      margin-top: 150px;
+      padding: 0 60px;
 }
 
 .about-heading {
@@ -259,8 +257,8 @@ hr {
 }
 
 .fas {
-      margin: 12.5% 20px;
-      float: left;
+      margin: 0!important;
+      float: left !important;
       color: #3fc5f0 !important;
 }
 
@@ -317,14 +315,14 @@ hr {
 }
 
 .dark-font-symbol {
-      text-align: left;
-      margin: 5px 0 0;
+      text-align: left !important;
+      margin: 5px 0 0 !important;
       color: black !important;
 }
 
 .white-font-symbol {
-      text-align: left;
-      margin: 5px 0 0;
+      text-align: left !important;
+      margin: 5px 0 0 !important;
       color: white !important;
 }
 
@@ -480,7 +478,7 @@ hr {
 }
 
 .footer-font {
-      margin: 2px 6px 0;
+      margin: 2px 6px 0 !important;
       color: white !important;
 }
 
@@ -502,7 +500,7 @@ hr {
 @media only screen and (max-width: 480px) {
 
       .background-image {
-            height: 1300px;
+            height: 1800px;
       }
 
       .brand {
@@ -518,14 +516,14 @@ hr {
       }
       
       .big-heading {
-            padding-top: 300px;
-            font-size: 7rem !important;
-            text-align: center;
+            padding: 300px 100px 0;
+            font-size: 10rem !important;
+            
       }
 
       .company-description {
-            font-size: 2.6rem;
-            padding: 20px 70px;
+            font-size: 3.2rem;
+            padding: 20px 100px;
       }
 
       .form-wrapper {
@@ -537,12 +535,11 @@ hr {
 
       .about-section {
             position: relative;
-            margin: 800px 150px 1000px;
+            margin: 1300px 150px 1650px;
       }
 
       .about-section-row {
-            margin: 200px auto;
-            padding: 0px !important;
+            margin: 300px auto 250px;
             font-size: 2.2rem;
             width: 420px;
             height: 300px;
@@ -552,9 +549,29 @@ hr {
             text-align: center;
             font-size: 6rem;
       }
-
-      .about-section-button {
-            text-align: center !important;
+      .btn {
+            width: 300px;
+            height: 100px;
+            margin-left: 250px;
+            padding-bottom: 50px;
+            font-size: 2.7rem !important;
+      }
+      
+      .skills li {
+            margin: 40px 0px;
+            
+      }
+      li h5{
+            font-size: 2rem;
+      }
+      .bar {
+            height: 30px;
+            border: 3px solid rgba(0, 0, 0, 3);
+            box-shadow: 0 0 20px #2187e7b3;
+      }
+      
+      .bar span {
+            height: 30px;
       }
 
 
@@ -562,12 +579,15 @@ hr {
 
 
       .services-section {
+            background-color: white;
             position: relative;
-            margin: auto;
+            margin: 0 !important;
+            padding: 0 !important;
       }
 
       .services-heading {
-            font-size: 2.8rem;
+            font-size: 5rem;
+            margin-bottom: 50px;
       }
 
       .big-row {
@@ -583,7 +603,6 @@ hr {
       .dev-field {
             font-size: 1.2rem;
       }
-
       .fas {
             margin: 70px 0 !important;
       }
