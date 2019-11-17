@@ -1,9 +1,9 @@
-*{
+* {
       list-style: none;
 }
 
 
-body{
+body {
       /*background: #e6f8f9;*/
       background: #ececeb;
       width: 1300px;
@@ -15,12 +15,13 @@ body{
 /********************************************** Home Section *****************************************************/
 
 
-.home-section{
+.home-section {
       width: 1300px;
       margin: 0;
       padding: 0;
 }
-.background-image{  
+
+.background-image {
       width: 1349px;
       height: 660px;
       filter: brightness(20%);
@@ -29,35 +30,37 @@ body{
       margin: 0;
 }
 
-     
-nav{
+
+nav {
       padding: 20px 30px 0 20px !important;
-      
+
 }
 
-.nav-link{
+.nav-link {
       text-transform: uppercase;
       color: white !important;
       font-weight: bold;
 }
+
 /* First Row Of The About Section*/
-.top-container{
-      
+.top-container {
+
       height: 200px;
       position: fixed;
       color: white;
       margin: 140px 0 30px 50px;
 }
 
-.big-heading{
+.big-heading {
       font-size: 2.7rem !important;
-      color: white;  
+      color: white;
       padding-bottom: 20px;
 }
+
 /**************************************** About Section Form *****************************************/
 
 
-.form-wrapper{
+.form-wrapper {
       max-width: 400px !important;
       padding: 20px 100px;
       margin: 70px 0 0 100px;
@@ -65,29 +68,29 @@ nav{
       opacity: 0.8;
       color: white;
       border-radius: 6.125%;
-      
+
 }
 
-form{ 
+form {
       margin: 0 auto;
 }
 
 
-.form-title{
+.form-title {
       text-align: center;
       font-size: 2.4rem !important;
-      color: white;  
+      color: white;
       margin-top: 20px;
       padding-bottom: 20px;
 }
 
-.form-input{
+.form-input {
       width: 250px;
       margin: 10px 15px;
-      
+
 }
 
-.btn-send{
+.btn-send {
       background: whitesmoke !important;
       margin-left: 65px;
       border-radius: 12.5px;
@@ -97,27 +100,27 @@ form{
 
 /****************************************** About Section *******************************************/
 
-.about-section{
+.about-section {
       height: 500px;
       margin-top: 50px;
       padding: 0px 60px;
 }
 
-.about-heading{
-      padding-bottom:50px;
+.about-heading {
+      padding-bottom: 50px;
 }
 
 
 
-.about-section-row{
+.about-section-row {
       margin: 30px auto;
       padding: 50px !important;
-      
+
       width: 400px;
       height: 350px;
 }
 
-.btn{
+.btn {
       margin-top: 40px !important;
 }
 
@@ -125,7 +128,7 @@ form{
       margin: 20px 0;
 }
 
-.bar{
+.bar {
       background: #353b48;
       display: block;
       height: 5px;
@@ -135,78 +138,83 @@ form{
       box-shadow: 0 0 10px #2187e7b3;
 }
 
-.bar span{
-      height:2px;
+.bar span {
+      height: 2px;
       float: left;
       background: #3fc5f0;
 }
 
-.html{
+.html {
       width: 90%;
       animation: html 2s;
 }
 
-.css{
+.css {
       width: 85%;
       animation: css 2s;
 }
 
-.jquery{
-      width:75%;
+.jquery {
+      width: 75%;
       animation: jquery 2s;
 }
 
-.javascript{
+.javascript {
       width: 60%;
       animation: javascript 2s;
 }
 
-.python{
+.python {
       width: 50%;
       animation: python 2s;
 }
 
-@keyframes html{
-      0%{
+@keyframes html {
+      0% {
             width: 0%;
       }
-      100%{
+
+      100% {
             width: 95%;
       }
 }
 
-@keyframes css{
-      0%{
+@keyframes css {
+      0% {
             width: 0%;
       }
-      100%{
+
+      100% {
             width: 85%;
       }
 }
 
-@keyframes jquery{
-      0%{
+@keyframes jquery {
+      0% {
             width: 0%;
       }
-      100%{
+
+      100% {
             width: 75%;
       }
 }
 
-@keyframes javascript{
-      0%{
+@keyframes javascript {
+      0% {
             width: 0%;
       }
-      100%{
+
+      100% {
             width: 60%;
       }
 }
 
-@keyframes python{
-      0%{
+@keyframes python {
+      0% {
             width: 0%;
       }
-      100%{
+
+      100% {
             width: 50%;
       }
 }
@@ -214,106 +222,107 @@ form{
 /* Services Section */
 
 
-.services-section{
+.services-section {
       width: 1349px;
       padding: 20px 60px;
       background: #ececeb;
 }
 
-.services-heading{
-     text-align: center;
-     
-     /*padding: 60px auto !important;*/
+.services-heading {
+      text-align: center;
+
+      /*padding: 60px auto !important;*/
 }
 
-hr{
-      
+hr {
+
       width: 40px;
       border: 3px solid #3fc5f0 !important;
-      
+
 }
 
-.big-row{
+.big-row {
       margin-top: 60px !important;
 }
 
-.dev-row{
+.dev-row {
       background: #f8f8f8;
       margin: 10px;
       padding: 5px;
       border-radius: 12.5px;
-      box-shadow: 0 0 10px #2187e7b3;      
+      box-shadow: 0 0 10px #2187e7b3;
 }
 
-.dev-field{
-      margin:10px 0 0 80px;
+.dev-field {
+      margin: 10px 0 0 80px;
       font-size: 14px;
 }
 
-.fas{ 
+.fas {
       margin: 12.5% 20px;
       float: left;
       color: #3fc5f0 !important;
 }
 
 /* Pricing Section */
-.pricing-section{
-      
+.pricing-section {
+
       text-align: center;
-      height:500px;
+      height: 500px;
       margin: 0px 30px;
       padding: 30px 0;
 }
 
-.pricing-heading{  
+.pricing-heading {
       margin: 20px 0 0;
       text-transform: uppercase;
 }
 
 
-.price{
-   padding: 15px;
-   width: 33%;
-   height: 400px;
-   margin: 60px;
-   font-weight: 1000;
-   /*filter: brightness(30%);*/
-   background-repeat: no-repeat;
-   
+.price {
+      padding: 15px;
+      width: 33%;
+      height: 400px;
+      margin: 60px;
+      font-weight: 1000;
+      /*filter: brightness(30%);*/
+      background-repeat: no-repeat;
+
 }
 
-.first{
-      background-image:linear-gradient(rgba(0, 255, 0, 0.5), rgba(71, 207, 289, 0.664)), url(./Images/first-pricing-image.jpg);
-      
+.first {
+      background-image: linear-gradient(rgba(0, 255, 0, 0.5), rgba(71, 207, 289, 0.664)), url(./Images/first-pricing-image.jpg);
+
 }
 
-.second{
-      background-image:linear-gradient(rgba(0, 0, 0, 0.89), rgba(0, 0, 0, 0.5)), url(./Images/second-pricing-image.jpg);
+.second {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.89), rgba(0, 0, 0, 0.5)), url(./Images/second-pricing-image.jpg);
       color: white;
-      
+
 }
 
-.third{
-      background-image:linear-gradient(rgba(0, 102, 255, 0.89), rgba(0, 0, 255, 0.5)), url(./Images/third-pricing-image.jpg);
+.third {
+      background-image: linear-gradient(rgba(0, 102, 255, 0.89), rgba(0, 0, 255, 0.5)), url(./Images/third-pricing-image.jpg);
 }
 
 
-.card-heading{
+.card-heading {
       margin: 10px 0 0;
       font-size: 1.4rem;
       text-align: left;
 }
 
-.feature{
+.feature {
       margin: 10px 0 15px 5px;
 }
 
-.dark-font-symbol{
+.dark-font-symbol {
       text-align: left;
       margin: 5px 0 0;
       color: black !important;
 }
-.white-font-symbol{
+
+.white-font-symbol {
       text-align: left;
       margin: 5px 0 0;
       color: white !important;
@@ -322,153 +331,167 @@ hr{
 
 /********************************* Team Section **********************************************/
 
-.team-section{
+.team-section {
       width: 1330px;
       margin-top: 140px;
       background: rgba(228, 250, 252, 0.281);
 }
-.team-heading{
-      
-      padding: 30px 30px 0; 
+
+.team-heading {
+
+      padding: 30px 30px 0;
       text-align: center;
 }
 
 
-.member-card{
-   width: 280px;
-   height: 350px;
-   margin: 40px 60px;
-   background: white !important;
-   position: relative;
-   box-shadow: 0 0 10px #2187e7b3;
+.member-card {
+      width: 280px;
+      height: 350px;
+      margin: 40px 60px;
+      background: white !important;
+      position: relative;
+      box-shadow: 0 0 10px #2187e7b3;
 }
 
-.member-image{
+.member-image {
       width: 150px;
       height: 150px;
-      
+
       margin: 20px 0 0 60px;
       border-radius: 50%;
 }
 
-.name{
+.name {
       color: darkcyan !important;
       text-transform: uppercase;
 }
-.first-name{
+
+.first-name {
       position: absolute;
       top: 180px;
       left: 100px;
 }
-.second-name{
+
+.second-name {
       position: absolute;
       top: 180px;
       left: 90px;
 }
-.third-name{
+
+.third-name {
       position: absolute;
       top: 180px;
       left: 70px;
 }
-.profession{
+
+.profession {
       font-style: bold;
       text-transform: uppercase;
       font-size: 14px;
       position: absolute;
 }
-.first-profession{
+
+.first-profession {
       top: 220px;
       left: 115px;
 }
-.second-profession{
+
+.second-profession {
       top: 220px;
       left: 92px;
 }
-.third-profession{
-      
+
+.third-profession {
+
       top: 220px;
       left: 65px;
 }
 
-.role-desc{
+.role-desc {
       font-size: 12px;
       position: absolute;
       top: 240px;
       left: 30px;
 }
 
-.fonts-container{
+.fonts-container {
       position: absolute;
-      top:320px;
+      top: 320px;
       left: 100px;
 }
 
-.contact-container{
-      margin:50px 100px 0 !important;
+.contact-container {
+      margin: 50px 100px 0 !important;
       padding: 50px;
       height: 300px !important;
       display: block;
-      
+
 }
 
-.contact-heading{
+.contact-heading {
       text-align: center;
 }
 
-.input-field{
+.input-field {
       width: 353px;
       height: 50px;
       border-color: #eafbea;
 }
 
-.large-input-field{
+.large-input-field {
       width: 470px;
       height: 110px;
       border-color: #eafbea;
 }
 
-.large-button{
+.large-button {
       margin: 0 !important;
 }
 
-.contact-font{
+.contact-font {
       margin: 0;
       padding: 17px;
       color: black !important;
-      background: #e3e7f1; 
+      background: #e3e7f1;
 }
+
 /****************************************** Footer Section *******************************************/
 
 
 
-.footer{
+.footer {
       width: 1349px;
       height: 200px;
       background: #3c4245;
       color: white;
       padding-right: 15px;
 }
-.footer-section{
-      margin:20px 50px;
+
+.footer-section {
+      margin: 20px 50px;
 }
-.footer-heading{
+
+.footer-heading {
       margin-bottom: 20px;
 }
-.footer-last-section-fonts i{
-     margin: 5px;
+
+.footer-last-section-fonts i {
+      margin: 5px;
 }
-.footer-font{
+
+.footer-font {
       margin: 2px 6px 0;
       color: white !important;
 }
 
 
-.footer-input{
+.footer-input {
       width: 220px !important;
       height: 37px;
       border-radius: 2px;
 }
-.subscribe-button{
+
+.subscribe-button {
       margin: 0 0 5px 0 !important;
 }
 
@@ -476,121 +499,121 @@ hr{
 /************************************* Media Queries ********************************************/
 
 
-@media only screen and (max-width: 480px){
-      
-      .background-image{
+@media only screen and (max-width: 480px) {
+
+      .background-image {
             height: 1300px;
       }
 
-      .brand{
+      .brand {
             visibility: hidden !important;
       }
 
-      nav{
+      nav {
             width: 100%;
-            font-size: 2.1rem;
+            font-size: 1.7rem;
             margin: 0 0 20px;
             padding: 0;
+            text-align: center;
+      }
+      
+      .big-heading {
+            padding-top: 300px;
+            font-size: 7rem !important;
+            text-align: center;
       }
 
-      .big-heading{
-            font-size: 5rem !important;
-            text-align: center;      
+      .company-description {
+            font-size: 2.6rem;
+            padding: 20px 70px;
       }
 
-      .company-description{
-            font-size: 2.2rem; 
-            padding: 20px 70px;     
-      }
-
-      .form-wrapper{
+      .form-wrapper {
             display: none;
       }
 
       /***************************** About Section *****************************/
-      
-      
-      .about-section{
+
+
+      .about-section {
             position: relative;
-            margin: 900px 150px 900px;       
+            margin: 800px 150px 1000px;
       }
 
-      .about-section-row{
+      .about-section-row {
             margin: 200px auto;
             padding: 0px !important;
-            font-size:2.2rem;
+            font-size: 2.2rem;
             width: 420px;
-            height: 300px;         
+            height: 300px;
       }
 
-      .about-heading{
+      .about-heading {
             text-align: center;
+            font-size: 6rem;
       }
 
-      .about-section-button{
+      .about-section-button {
             text-align: center !important;
       }
 
 
       /******************************* Services Section ******************************/
-      
-      
-      .services-section{
+
+
+      .services-section {
             position: relative;
             margin: auto;
       }
 
-      .services-heading{
+      .services-heading {
             font-size: 2.8rem;
-      } 
+      }
 
-      .big-row{
+      .big-row {
             width: 1200px;
             padding-left: 130px;
       }
 
-      .dev-row{
+      .dev-row {
             width: 280px;
-            height: 250px;    
+            height: 250px;
       }
 
-      .dev-field{
+      .dev-field {
             font-size: 1.2rem;
       }
 
-      .fas{
+      .fas {
             margin: 70px 0 !important;
       }
 
-      
+
       /******************************* Pricing Section***************************************/
-      
-      
-      .pricing-section{
+
+
+      .pricing-section {
             position: relative;
-            margin:0 30px 1200px;
+            margin: 0 30px 1200px;
       }
 
       /****************************** Team Section ****************************************/
 
 
-      .team-section{
+      .team-section {
             position: relative;
             margin: 200px 30px 400px;
       }
-      .team-heading{
+
+      .team-heading {
             margin-top: 100px;
-      }  
-      .contact-section{
+      }
+
+      .contact-section {
             position: relative;
             margin: 0 30px 200px;
       }
-      
-      
-      
-
 }
-
 
 
 
