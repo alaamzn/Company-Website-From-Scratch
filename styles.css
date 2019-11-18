@@ -512,15 +512,21 @@ hr {
       }
 
       nav {
-            width: 98%;
-            font-size: 1.7rem;
-            margin: 0;
-            padding: 0;
+            width: 1349px;
+            background: rgba(0, 0, 0, 0.8);
+            font-size: 3rem;
+            
+
             text-align: center;
       }
       
+      nav button{
+            font-size: 50px;
+            width: 100px;
+            height: 100px;
+      }
       .big-heading {
-            padding: 300px 100px 0;
+            padding: 330px 100px 0;
             font-size: 10rem !important;
             
       }
@@ -628,52 +634,56 @@ hr {
 
       .pricing-section {
             position: relative;
-            margin: 0 30px 1800px;
+            margin: 0 0 1800px;
       }
       .pricing-section {
 
             
-            height: 700px;
+            height: 900px;
             
       }
 
       .pricing-container{
             background: grey;
-            width: 1349px;
-            padding-bottom: 100px;
+            width: 1365px;
+            padding: 100px 0;
+            margin: 100px 0;
       }
       .card-heading{
-            margin-left: 400px;
-            font-size: 2.8rem;
-            padding-bottom: 40px;
+            margin: 0 250px;
+            font-size: 5rem;
+            
+            
       }
       .pricing-heading {
             font-size: 4rem;
       }
       
       .feature{
-            margin-left: 400px;
+            margin-left: 300px;
       }
 
       .feature p{
-            margin-right: 200px;
+            margin-right: 400px;
       }
       
       .price{
+            
              font-size: 2.4rem; 
              margin-bottom: 260px;    
              
       }
 
       .price h4{
-            margin-left: 200px;
-            font-size: 3rem; 
+            margin: 0 70px;
+            font-size: 4rem; 
             
       }
       
       
       .dark-font-symbol{
             margin-left: 300px;
+            margin-top: 5px;
       }
       .white-font-symbol{
             color: black !important;
@@ -693,8 +703,11 @@ hr {
             background-image: none;
             text-align: center;
       }
-
-
+      .price button{
+            margin-left: 150px;
+            margin-right: 250px;
+      }   
+       
 
       /****************************** Team Section ****************************************/
 
@@ -775,33 +788,38 @@ hr {
       /*******************************Contact Section **************************************/
       .contact-section {
             position: relative;
-            margin: 0px 30px 100px;
+            margin: 0px 30px 200px;
       }
       .contact-container {
-            margin: 0 170px  !important;
+            margin-top: 200px !important;
             padding: 0;
-            height: 500px !important;
+            height: 700px !important;
+            text-align: center;
             
       }
       .contact-heading {
             text-align: center;
-            font-size: 4rem;
+            font-size: 6rem;
       }
-      
+      .contact-font{
+            font-size: 65px !important;
+      }
       .input-field {
-            
-            width: 800px;
-            height: 50px;
-            
+            width: 900px;
+            height: 100px;  
+            font-size: 2.5rem;    
       }
       
       .large-input-field {
-            width: 850px;
+            width: 890px;
             height: 250px;
             border: 1px solid grey;
+            margin-left: 110px;
+            font-size: 2.5rem;
       }
       .large-button {
-            width:820px;
+            width:890px !important;
+            margin:100px 0 0 120px !important;
       }
       
       /***************************** Footer Section ***************************************/
