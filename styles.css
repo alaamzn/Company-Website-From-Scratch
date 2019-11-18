@@ -514,16 +514,14 @@ hr {
       nav {
             width: 1349px;
             background: rgba(0, 0, 0, 0.8);
-            font-size: 3rem;
-            
-
+            font-size: 3.5rem;
             text-align: center;
       }
       
       nav button{
-            font-size: 50px;
-            width: 100px;
-            height: 100px;
+            font-size: 100px !important;
+            width: 200px;
+            height: 200px;
       }
       .big-heading {
             padding: 330px 100px 0;
@@ -589,7 +587,7 @@ hr {
 
 
       .services-section {
-            background-color: white;
+            background-color: rgba(228, 250, 252, 0.281);
             position: relative;
             margin: 0 !important;
             padding: 0 !important;
@@ -602,16 +600,17 @@ hr {
 
       .big-row {
             width: 1200px;
-            padding-left: 130px;
+            padding: 130px 0 0 150px;
             
       }
 
       .dev-row {
-            width: 300px;
+            
             height: 400px;
             
       }
       .dev-field{
+            width: 1000px;
             padding-bottom: 50px;
             padding-left: 70px;
       }
@@ -624,8 +623,8 @@ hr {
             font-size: 1.8rem;
       }
       .dev-row .fas{
-            margin: 180px 0 0 50px!important;
-            font-size: 4rem !important;
+            margin: 150px 0 0 !important;
+            font-size: 7rem !important;
       }
 
 
@@ -644,10 +643,10 @@ hr {
       }
 
       .pricing-container{
-            background: grey;
+            background: white;
             width: 1365px;
-            padding: 100px 0;
-            margin: 100px 0;
+            padding: 20px 0;
+            margin: 50px 0;
       }
       .card-heading{
             margin: 0 250px;
